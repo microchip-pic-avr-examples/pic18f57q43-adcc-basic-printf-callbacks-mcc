@@ -14,8 +14,9 @@ The [ADC Basic Printf example](https://onlinedocs.microchip.com/v2/keyword-looku
 ## MCC Melody Example Components
 Example Components are a tight integration of learning material directly into MCC. This allows users to conveniently place configuration instructions side-by-side to the components they are configuring. For more information, refer to the [MCC Melody Example Components Introduction](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES&version=latest&redirect=true). 
 
+**Note:** The image below shows the ADCC Example Component, as it would be moving to the Callbacks Implementation, having implemented the Polled Implementation. In this case a diff between the two implementations is shown. 
 
-![MCC Melody Example Components](images/ADCCExample_BasicPrintf_Callbacks-Intro_12cm.png)
+![MCC Melody Example Components](images/ADCCExample_BasicPrintf_CallbacksFromPolled-Intro_12cm.png)
 
 
 Complete projects, available in [MPLAB® Discover](https://mplab-discover.microchip.com) or GitHub, are specific to a board and microcontroller. However, the current project could be recreated on a range of supported microcontrollers by following the steps in the example component.
@@ -46,7 +47,7 @@ Example Components are related to [MCC Melody Design Patterns for Control Flow](
 ## Setup
 All instructions required to recreate this example are listed below, under Configuration Instructions.   
 
-![TIMER Toggle LED, Callbacks Implementation](images/ADCC_Basic_Printf_Callbacks.png)
+![TIMER Toggle LED, Callbacks Implementation](images/ADCC_Basic_Printf_Callbacks-ConfigComplete.png)
 
 Once you have loaded the project in MPLAB X IDE, you will also be able to find more information from Tooltips and links next to the instructions 
 [![Tooltip and link](images/Icon-info-circle-fill.png "Find the Tx pin from your schematic and set it in Pin Grid View.")](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.CONFIGHELP.UART.CNANO&version=latest&redirect=true).
