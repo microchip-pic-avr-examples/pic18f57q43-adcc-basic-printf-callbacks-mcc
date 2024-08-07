@@ -9,12 +9,12 @@
 # MCC Melody ADC Basic Printf Example - Callbacks Implementation (PIC18F57Q43)
 
 The [ADC Basic Printf example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.ADCC.PRINTF&version=latest&redirect=true "Analog-to-Digital Conversion (ADC) Basic Printf example, of the MPLAB® Code Configurator (MCC) ADC Converter with Computation (ADCC) Example"
-), of the MCC Melody ADCC Example Component, is used in the Callbacks implementation.  ADC measurements are taken every 500 ms, using a Timer overflow callback. The LED is toggled and the result is sent to the PC terminal.  
+), of the MCC Melody ADCC Example Component, is used in the Callbacks implementation.  Analog-to-Digital Conversion (ADC) measurements are taken every 500 ms, using a Timer overflow callback. The LED is toggled and the result is sent to the PC terminal.  
 
 ## MCC Melody Example Components
 Example Components are a tight integration of learning material directly into MCC. This allows users to conveniently place configuration instructions side-by-side to the components they are configuring. For more information, refer to the [MCC Melody Example Components Introduction](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES&version=latest&redirect=true). 
 
-**Note:** The image below shows the ADCC Example Component, as it would be moving to the Callbacks implementation, having implemented the Polled Implementation. In this case, a diff between the two implementations is shown. 
+**Note:** The image below shows the ADCC Example Component, as it would be moving to the Callbacks implementation, having implemented the Polled implementation. In this case, a diff between the two implementations is shown. 
 
 ![MCC Melody Example Components](images/ADCCExample_BasicPrintf_CallbacksFromPolled-Intro_12cm.png)
 
@@ -31,7 +31,7 @@ Example Components are related to [MCC Melody Design Patterns for Control Flow](
 - MPLAB® X IDE 6.20.0 or newer [(MPLAB® X IDE 6.20)](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-x-ide)
 - MPLAB® XC8 2.46.0 or newer [(MPLAB® XC8 2.46)](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8)
 
-- MCC Plug-in Version 5.5.1 or newer (Tools > Plugins > Installed, search: "MCC")
+- MCC Plugin Version 5.5.1 or newer (Tools > Plugins > Installed, search: "MCC")
 - ADCC Example Component 1.0.0 or newer
 - MCC Core 5.7.1 or newer 
 - MCC Melody Core 2.7.1 or newer (Communicates with the MCC core, providing views and other functionality for MCC Melody)
@@ -59,9 +59,9 @@ Once the program is loaded in MPLAB X IDE, find more information from Tooltips a
 The image below shows the [ADCC Basic Printf example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.ADCC.PRINTF&version=latest&redirect=true
 ) running, using the MPLAB Data Visualizer. 
 
-1) Click the ![Data Visualizer icon](images/Icon-MPLAB-DataVisualizer_1cm.png) to open the MPLAB Data Visualizer.
+1) Click the ![Data Visualizer icon](images/Icon-MPLAB-DataVisualizer_1cm.png) icon to open the MPLAB Data Visualizer.
 2) Under Debug GPIO, click the ![Add to time plot icon](images/Icon-DataVisualizer_TimePlot.png "Display as raw data on time plot.") icon, to add to the time plot.
-3) Under the COMx port, associated with your board, click the ![Settings Gear](images/Icon-DataVisualizer-SettingsGear.png "sourse options") to set the Baud Rate to 115200. 
+3) Under the COMx port, associated with your board, click the ![Settings Gear](images/Icon-DataVisualizer-SettingsGear.png "sourse options") icon to set the Baud Rate to 115200. 
 4) Then click the ![Display as text in the terminal icon](images/Icon-DataVisualizer_TimePlot.png "Display as raw data on time plot.") icon to display text from the COMx port on the terminal.
 
 **Note:** If your board is not recognised by the MPLAB Data Visualizer, go to the Device Manager (Windows) to determine the COMx number.  
