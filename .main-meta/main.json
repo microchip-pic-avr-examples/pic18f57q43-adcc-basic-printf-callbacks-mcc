@@ -1,10 +1,10 @@
 {
-    "metaDataVersion": "1.0.0",
+    "metaDataVersion": "1.0.1",
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f57q43-adcc-basic-printf-callbacks-mcc",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "pic18f57q43-adcc-basic-printf-callbacks-mcc",
         "projectName": "pic18f57q43-adcc-basic-printf-callbacks-mcc",
         "shortDescription": "The ADCC Basic Printf Example, of the MCC Melody ADCC Example Component, used in the Callbacks Implementation. ADC Conversions are taken every 500 ms, using a Timer overflow callback. The LED is toggled and the result is sent to the PC terminal.",
@@ -49,7 +49,10 @@
             "UART",
             "Getting Started",
             "Melody",
-            "MCC Melody"
+            "MCC Melody",
+            "Curiosity Nano Explorer",
+            "Example Components",
+            "MCC Melody Example Components"
         ],
         "additionalData": {
             "longDescription": {
